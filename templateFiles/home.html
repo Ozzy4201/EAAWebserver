@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>EAA App</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link href="staticFiles/style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
+</head>
+
+
+<body>
+    <div class="topMenu">
+        <a href="/map">Map</a>
+        <a href="/stats">Stats</a>
+    </div>
+
+    <div id="map"></div>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoib3p6eTQyMDEiLCJhIjoiY2wzMXhkajd3MTB4YTNqcHMyM2J4bjg1NSJ9.9NASqV79hk6tM7ygZHUc5Q';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/ozzy4201/cl31xjky9008314p6jtxx6jur',
+            center: [0, 0],
+            zoom: 2
+        });
+    </script>
+    <div class="topMenu">
+        <a href="/map">Map</a>
+        <a href="/stats">Stats</a>
+    </div>
+</body>
+
+</html>

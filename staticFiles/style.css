@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Sora&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #191a1a;
+}
+
+.topMenu {
+  padding-bottom: 10px;
+  margin: 0px;
+}
+.topMenu a {
+  position: relative;
+  float: left;
+  color: #f2f2f2;
+  padding: 0px 25px;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: 'Koulen', cursive;
+  font-stretch: expanded;
+  top: -15px;
+}
+.topMenu a:hover {
+  background-color: #666666;
+  color: #b0b0b0;
+}  
+
+h1 {
+  color: white;
+  font-size: 25x;
+  font-family: 'Koulen', cursive;
+
+}
+/*-------map------*/
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
