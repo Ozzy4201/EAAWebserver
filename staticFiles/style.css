@@ -22,6 +22,7 @@ html, body {
   font-family: 'Koulen', cursive;
   font-stretch: expanded;
   top: -15px;
+  left: -220px;
 }
 .topMenu a:hover {
   background-color: #666666;
@@ -30,7 +31,7 @@ html, body {
 
 h1 {
   color: white;
-  font-size: 25x;
+  font-size: 25px;
   font-family: 'Koulen', cursive;
 
 }
