@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\templateFiles",
-    "\\website"
+    ""
   ],
-  "SelectedNode": "\\views.py",
+  "SelectedNode": "\\main.py",
   "PreviewInSolutionExplorer": false
 }

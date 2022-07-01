@@ -9,8 +9,9 @@ html, body {
 }
 
 .topMenu {
-  padding-bottom: 10px;
-  margin: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 0px;
 }
 .topMenu a {
   position: relative;
@@ -33,7 +34,8 @@ h1 {
   color: white;
   font-size: 25px;
   font-family: 'Koulen', cursive;
-
+  padding: 0px;
 }
+
 /*-------map------*/
 #map { position: absolute; top: 0; bottom: 0; width: 100%; }
